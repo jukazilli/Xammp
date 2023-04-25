@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-attachment: fixed;
+   color: aliceblue;
+  
+}
+h1,h2,h3{
+    font-size: 1.8rem;
+}
+
+h4,h5,h6{
+    font-size: 1.4rem;
+}
+p{
+    font-size: 1.6rem;
+}
+
+
+    @media (min-width: 350px) and (max-width: 475px) {
+        *{
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 62.5%;
+            overflow-x: hidden;
+           color: aliceblue;
+           
+        }
+        #imagem1{
+            max-width: 40%;
+            max-height: 40%;
+            border-radius: 10px;
+    }
+    .cabecalho{
+        position: relative;
+        background-color: rgb(115, 115, 197);
+        padding: 1rem;
+       
+    }
+    h1,h2,h3{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    h4,h5,h6{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    p{
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+}
+        
+
+.cabecalho{
+    position: relative;
+    background-color: rgb(115, 115, 197);
+    padding: 1rem;
+    font-size: 3rem;
+    font-size: 1.8rem;
+}
+
+
+blockquote{
+   
+    background-color: rgb(226, 125, 213);
+    text-align: justify;
+    padding-left: 1.5rem;  
+    padding-right: 1.5rem;  
+    line-height: 150%;
+    max-width: 80%;
+    font-size: 1.3rem;
+
+    
+}
+.conteudo {
+    background-color: rgb(101, 136, 211);
+    font-size: 1.6rem;
+    padding-left: 1.5rem;  
+    padding: 1rem; 
+     text-align: justify;
+     line-height: 150%;
+    max-width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.conteudo2{
+    background-color: rgb(29, 196, 196);
+    max-width: 80%;
+    padding-left: 1.5rem;  
+    padding: 1rem;  
+     text-align: justify;
+     line-height: 150%;
+     max-width: 80%;
+     align-items: center;
+     margin: 0 auto;
+     font-size: 1.6rem;
+}
+figure{
+    text-align: center;
+}
+
+
+
+#imagem1{
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(115, 115, 197);
+    padding: 1rem;
+       
+}
+
