@@ -37,29 +37,40 @@ p{
             border-radius: 10px;
     }
     .cabecalho{
-        position: relative;
+        position: fixed;
+        width: 100%;
         background-color: rgb(115, 115, 197);
         padding: 1rem;
        
     }
     h1,h2,h3{
         font-size: 1.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     
     h4,h5,h6{
         font-size: 1.2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     p{
         font-size: 1.1rem;
         margin-bottom: 2rem;
     }
+    
+    footer{
+        background-color: rgb(115, 115, 197);
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+           
+    }
+    
 }
         
 
 .cabecalho{
-    position: relative;
+    position: fixed;
+    width: 100%;
     background-color: rgb(115, 115, 197);
     padding: 1rem;
     font-size: 3rem;
@@ -117,6 +128,8 @@ figure{
 footer{
     background-color: rgb(115, 115, 197);
     padding: 1rem;
+    position: fixed;
+    width: 100%;
        
 }
 
