@@ -11,33 +11,126 @@
     <header class="cabecalho">
         <h3 >Curso de HTML</h3>
         <h4  >Desenvolvimento Web</h4>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </nav>
     </header>
+
+    <div class="comprar" id="comprar">
+        <div id="comprar"><p>Comprar agora !</p></div>
+    </div>
+
     
-    <section class="conteudo">
-        <h2  >Estilo de vida e Tecnologia</h2>
-        <figure>
-            <img id="imagem1" src="/cursoHtmlSecao2/assets/imagem-exemplo.png" alt="primeira imagem do site">
-            <figcaption>Legenda da Imagem</figcaption>
-        </figure>
-        <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ipsum consequuntur accusamus cupiditate provident quis cum in quam sed, veniam officiis, nesciunt facere delectus ullam recusandae optio, ut doloremque? Nesciunt, quod.
-        </p>
-    </section>
-
-    <aside>
-        <p><blockquote>Pensamentos, sempre serão apenas pensamentos se nunca forem ditos !</blockquote></p>
-    </aside>
-
-    <section class="conteudo2">
-        <h1 >Administração do Tempo</h1>
-        <figure>
-            <img id="imagem1" src="/cursoHtmlSecao2/assets/imagem-exemplo.png" alt="primeira imagem do site">
-            <figcaption>Legenda da Imagem</figcaption>
-        </figure>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.  
-            Expedita dolorem sequi quas ex. Possimus mollitia deleniti deserunt, consectetur assumenda temporibus dolores doloremque porro laudantium recusandae corrupti, saepe nemo illum libero.</p>
-    </section>
+  
+        <section class="conteudo">
+            <h2 id="titulo" >Estilo de vida e Tecnologia</h2>
+            <figure>
+                <img id="imagem1" src="/cursoHtmlSecao2/assets/imagem-exemplo.png" alt="primeira imagem do site">
+                <figcaption>Legenda da Imagem</figcaption>
+            </figure>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsum consequuntur accusamus cupiditate provident quis cum in quam sed, veniam officiis, nesciunt facere delectus ullam recusandae optio, ut doloremque? Nesciunt, quod.
+            </p>
+        </section><br><br>
+        <section class="conteudo3">
+            <h3>Historias de sucesso </h3>
+            <div class="grid-box">
+                <div><p>conteudo</p></div>
+                <div><p>conteudo</p></div>
+                <div><p>conteudo</p></div>
+                <div><p>conteudo</p></div>
+                <div><p>conteudo</p></div>
+                <div><p>conteudo</p></div>
+            </div>
+        </section>
+        <br><br>
+        <section class="conteudo2">
+            <h1 id="titulo">Administração do Tempo</h1>
+            <figure>
+                <img id="imagem1" class="img" src="/cursoHtmlSecao2/assets/imagem-exemplo.png" alt="primeira imagem do site">
+                <figcaption>Legenda da Imagem</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Expedita dolorem sequi quas ex. Possimus mollitia deleniti deserunt, consectetur assumenda temporibus dolores doloremque porro laudantium recusandae corrupti, saepe nemo illum libero.</p>
+        </section>
+        
+        <br><br>
+            <section class="conteudo4">
+        
+                <fieldset>
+                    <legend>Inscreva-se</legend>
+        
+                        <form action="submit" method="post">
+                            <div class="inputbox">
+                                <label for="name">Nome</label><br>
+                                <input type="text" name="nome" id="nome" >
+                                <br>
+                            </div>
+        
+                            <div class="inputbox">
+                                <label for="tel">Telefone</label><br>
+                                <input type="tel" name="tel" id="tel"  >
+                                <br>
+                            </div>
+        
+                            <div class="inputbox">
+                                <label for="email">Email</label><br>
+                                <input type="email" name="email" id="email">
+                                <br>
+                            </div>
+                            <!--
+                                fim das inputs de tipo text
+                            -->
+                             <!--
+                                inicio das input do tipo checkbox
+                            -->
+                            <div class="checkbox">
+                                <input type="checkbox" id="opcao" value="#1">
+                                    <label for="#1">Quero sabr mais sobre HTML e CSS </label>
+                            </div>
+                            <div class="checkbox">
+        
+                                <input type="checkbox" id="opcao" value="#2">
+                                 <label for="#2">Quero saber mais sobre JavaScript </label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="opcao" value="#3">
+                             <label for="#3">Quero saber mais Sobre Python </label>
+        
+                            </div>
+                            <div  class="checkbox">
+        
+                                <input type="checkbox" id="opcao" value="#4">
+                                <label for="#4">Quero saber mais sobre PHP </label>
+                            </div>
+                            <div class="checkbox">
+        
+                                <input type="checkbox"id="opcao" value="#5">
+                                <label for="#5">Quero saber mais sobre JAVA </label>
+        
+                            </div>
+                            <div class="checkbox" >
+                                <input type="checkbox" id="opcao" value="#6" >
+                                <label for="#6">Quero saber mais sobre React.JS </label>
+        
+                            </div><br>
+                            <div class="checkbox">
+                                <label for="duvida">Envie sua duvida ! </label><br>
+                                <textarea  name="duvida" id="duvida" cols="30%" rows="5%" ></textarea>
+        
+                            </div><br>
+                            <button type="submit" id="submit">Enviar</button>
+                            <button type="reset" id="delete">Apagar</button>
+        
+                        </form>
+                    </fieldset>
+                    </section>
+  
+                
+        
 
     <footer>
         <h5>Empresa com direitos reservados.</h5>

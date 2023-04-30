@@ -5,9 +5,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
     background-attachment: fixed;
-   color: aliceblue;
+   color: rgb(250, 250, 250);
+  
   
 }
+
+
+*:focus { outline: none; }
+
+ 
 h1,h2,h3{
     font-size: 1.8rem;
 }
@@ -16,6 +22,13 @@ h4,h5,h6{
     font-size: 1.4rem;
 }
 p{
+    font-size: 1.6rem;
+}
+input{
+    font-size: 1.6rem;
+}
+
+label{
     font-size: 1.6rem;
 }
 
@@ -28,24 +41,26 @@ p{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 62.5%;
             overflow-x: hidden;
-           color: aliceblue;
+          
+        
+          
            
         }
-        #imagem1{
-            max-width: 40%;
-            max-height: 40%;
-            border-radius: 10px;
-    }
+       
     .cabecalho{
+        z-index: 1;
         position: fixed;
         width: 100%;
         background-color: rgb(115, 115, 197);
         padding: 1rem;
+        
        
     }
     h1,h2,h3{
         font-size: 1.5rem;
-        margin-bottom: 1rem;
+       
+      
+    
     }
     
     h4,h5,h6{
@@ -53,83 +68,350 @@ p{
         margin-bottom: 1rem;
     }
     p{
-        font-size: 1.1rem;
+        font-size: 1.6rem;
         margin-bottom: 2rem;
     }
-    
-    footer{
-        background-color: rgb(115, 115, 197);
-        padding: 1rem;
+    figcaption{
+        font-size: 10px;
+    }
+    .comprar{
+        background-color: rgb(116, 116, 172);
         position: fixed;
-        width: 100%;
-           
+        right: 0;
+        text-align: center;
+        z-index: 1;
+       margin: 0 auto;
+       margin-top: 5.7rem;
+      
+    }
+      
+
+    #wa{
+        background-color: rgb(116, 116, 172);
+        position: relative;
+        cursor: pointer;
+        
+        height: 3%;
+        margin-bottom: 15px;
+       
+    }
+   
+    .conteudo {
+        
+        background-color: rgb(101, 136, 211);
+        font-size: 1.6rem;
+        padding-left: 1.5rem;  
+        padding: 1rem; 
+        text-align: justify;
+        line-height: 150%;
+        max-width: 80%;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 7rem;
+        margin-bottom: 10rem;
+        
+    
+        
+    }   
+    .conteudo2{
+   
+        background-color: rgb(29, 196, 196);
+        max-width: 80%;
+        padding-left: 1.5rem;  
+        padding: 2rem;  
+         text-align: justify;
+         line-height: 150%;
+         max-width: 80%;
+         align-items: center;
+         margin: 0 auto;
+         font-size: 1.6rem;
+        
+    }
+    
+
+    .grid-box div{
+     
+        background-color: blueviolet;
+        text-align: center ;
+       
+        padding: 10px;
+        margin: 0 auto;
+       
+       
+
+    }
+    .grid-box{
+       position: relative;
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        
+        max-height: 80%;
+        padding: 1.2%;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    #imagem1{
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10px;
+        margin-top: 20px;
     }
     
 }
-        
+
+     /*fim do midia query*/
+
+
+
+
+      #titulo{
+        margin: 10px 10px 20px 40px;
+      }  
+     
 
 .cabecalho{
     position: fixed;
+    z-index: 1;
     width: 100%;
     background-color: rgb(115, 115, 197);
     padding: 1rem;
     font-size: 3rem;
     font-size: 1.8rem;
-}
-
-
-blockquote{
-   
-    background-color: rgb(226, 125, 213);
-    text-align: justify;
-    padding-left: 1.5rem;  
-    padding-right: 1.5rem;  
-    line-height: 150%;
-    max-width: 80%;
-    font-size: 1.3rem;
-
     
 }
+         
+.cabecalho nav,a{
+    text-align: right;
+   font-size: 1.6rem;
+    margin-right: 5%;
+    word-spacing: 3px;
+
+}
+a:hover{
+    color: rgb(93, 29, 153);
+    font-weight: bold;
+}
+
+.comprar{
+    background-color: rgb(116, 116, 172);
+    position: fixed;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+   margin: 0 auto;
+   margin-top: 7.7rem;
+   
+   padding: 1rem;
+   border-radius:  5px 0px 0px 5px;
+   
+
+
+}
+
+#wa{
+    background-color: rgb(116, 116, 172);
+    position: relative;
+    top: 9px;
+    align-items: center;
+    cursor: pointer;
+    width :70% ;
+    height: 3%;
+    margin-bottom: 20px;
+}  
+
+.cabecalho nav  {
+    font-size: 1.6rem;
+}
+
+.cabecalho a{
+    text-decoration: none;
+}
+
 .conteudo {
     background-color: rgb(101, 136, 211);
     font-size: 1.6rem;
-    padding-left: 1.5rem;  
+    padding-left: 1.5rem; 
     padding: 1rem; 
-     text-align: justify;
-     line-height: 150%;
-    max-width: 80%;
+    text-align: justify;
+    line-height: 150%;
+    max-width: 70%;
     align-items: center;
     margin: 0 auto;
-    
+    padding-top: 90px;
+    border-radius: 10px;
 }
+
 .conteudo2{
+   
     background-color: rgb(29, 196, 196);
     max-width: 80%;
     padding-left: 1.5rem;  
     padding: 1rem;  
      text-align: justify;
      line-height: 150%;
-     max-width: 80%;
+     max-width: 70%;
      align-items: center;
      margin: 0 auto;
      font-size: 1.6rem;
+     border-radius: 10px;
+
 }
+
+    .conteudo3{
+        background-color: rgb(183, 80, 209);
+        max-width: 80%;
+        padding-left: 1.5rem;  
+        padding: 1rem;  
+         text-align: justify;
+         line-height: 150%;
+         max-width: 70%;
+         align-items: center;
+         margin: 0 auto;
+         font-size: 1.6rem;
+         border-radius: 10px;
+
+    }
+    .conteudo4{
+        background-color: rgb(163, 28, 197);
+        padding: 1rem;  
+         text-align: justify;
+         line-height: 150%;
+         max-width: 70%;
+         align-items: center;
+         margin: 0 auto;
+         border-radius: 10px;
+
+        
+
+    }
+    .conteudo4 legend{
+        margin: 10px;
+        font-size: 1.6rem;
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+    .conteudo4 fieldset{
+        border: 1px solid #fff;
+    }
+
+    .inputbox{
+        padding: 10px;
+        margin: 6px;
+    }
+     
+    .inputbox input{
+        position: relative;
+        padding: 5px;
+        margin: 6px;
+        border-radius: 5px;
+        border-bottom: 2px solid white ;
+        z-index: 0;
+        color: rgb(255, 255, 255);
+        background: none;
+        
+       
+        
+    }
+
+
+    .checkbox{
+        
+        padding: 10px;
+        margin: 6px;
+    }
+    .checkbox textarea{
+        font-size: 1.6rem;
+        color: rgb(163, 28, 197);
+        padding: 10px;
+        
+        border-radius: 5px;
+        margin: 6px;
+    }
+     
+    .checkbox textarea{
+        border: 3px solid outset rgb(201, 147, 214);
+        resize: none;
+      
+    }
+    
+
+    
+    #submit{
+        position: relative;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
+        padding: 10px;
+         margin: 2%;
+         width: 30%;
+         background-color: rgba(49, 49, 170, 0.678);
+    }
+    #delete{
+        position: relative;
+        font-weight: bold;
+        color: rgb(255, 250, 250);
+        background-color: rgba(160, 45, 45, 0.493);
+        font-size: 1.6rem;
+        padding: 10px;
+         margin: 2%;
+         width: 30%;
+    }
+   
+    
+    .grid-box{
+       
+        background-color: yellow;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+        max-width: 80%;
+        max-height: 80%;
+        padding: 1.2%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 10px;
+
+        
+    }
+
+    .grid-box div {
+        background-color: blueviolet;
+    
+        max-width: 60%;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 10px;
+
+        
+       
+       
+    }
+
 figure{
     text-align: center;
+    
+    
 }
-
-
-
-#imagem1{
+img{
     max-width: 50%;
     max-height: 50%;
     border-radius: 10px;
+    margin-top: 20px;
 }
+
+
+
+
 footer{
+    position: relative;
+    top: 10px;
     background-color: rgb(115, 115, 197);
     padding: 1rem;
-    position: fixed;
-    width: 100%;
+
        
 }
 
