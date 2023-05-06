@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     font-size: 62.5%;
     font-family: 'Jomolhari', serif;
@@ -35,76 +36,287 @@ a{
 /*inicio midia query */
 @media (min-width: 300px) and (max-width:475px)
 {
-    #cabecalho nav{
-    position: relative;
-    
-    top: 30px;
-    margin-right: 5%;
-    margin-left: 5%;
-    
-    }
-    #cardapio{
-        margin-left: 0;
-        margin: auto 0;
-        margin-top: 120px;
-        margin-right: 5px;
-       
+    #comprar1{
+        display: inline;
     }
     #comprar{
-        position: relative;
-        margin-right: 0;
-        margin: auto 0;
-        bottom: 85px;
-       right: 35px;
+        display: none;
     }
-    #cabecalho figure{
-
-        display: inline-flex;
-       margin-bottom: 43px;
-    }
-
-   
-    .carrossel div{
-        position: relative;
-        margin-right: 400px;
-        padding: 20px;
-        
+    
+    #logo{
+        position: absolute;
+        padding: 10px;
+        margin-left: 20px;
        
     }
+    
+    #nav {
+    position: relative;
+   top: 30px;
+ 
+   
+    
+   
+    
+    
+    }
+    
+    #cabecalho {
+        
+       position: absolute;
+       z-index: 1;
+        width: 100%;
+        background-color:#1F1F1F;
+        color: #FCFFF7;
+        background-repeat: no-repeat;
+        position: fixed;
+    }
+    
+    #cabecalho nav > ul{
+        display: inline-flex;
+        padding: 40px;
+       
+
+       
+    }
+    
+    
+    
+    
+    
+    
+    #cabecalho figure{
+    
+        display: inline-flex;
+       
+    }
+    .header-container{
+        position: relative;
+        margin: 0px;
+    }
+    
+    
+    
+    #cabecalho li{
+        font-weight: bolder;
+        color: #FCFFF7;
+        list-style: none;
+        background-color: rgb(175, 16, 16);
+        padding: 3px;
+        border-radius: 3px;
+        text-align: center;
+        margin-right: 10px;
+        
+       
+
+    
+    }
+    
+    #cabecalho li:hover{
+        background-color: rgb(6, 107, 48);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #img-section{
+        max-width: 100%;
+    }
+    
+    
+    .conteudo
+        {
+    
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 10px;
+        text-align: center;
+        top: 19.9rem;
+        margin-bottom:49px;
+       
+    
+    }
+    
+    
+    
     .conteudo2{
         /*arrumar o passo a passo depois*/
-        display: flex;
-        flex-direction: column;
         position: relative;
          top: 90px;
         max-width: 100%;
+        margin-right: 2%;
+        margin-left: 2%;
         margin-top: 120px;
         border-radius: 10px;
         background-color: #FCFFF7;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+        text-align: center;
     
         
     }
-    .float-l{
-        margin: 10px;
+    
+    .conteudo2 p,h3{
+    font-size: 1.9rem;
+    
+    }
+    .conteudo2 h3{
+        font-size: 1.9rem;
         text-align: center;
-        float:center;
+        background-color: rgb(6, 107, 48);
+        color: #FCFFF7;
+        }
+    
+    
+    #conteudo2 h3{
+        background-color: rgb(6, 107, 48);
+        color: #FCFFF7;
+        max-width: 90%;
+       margin: 0 auto;
+       text-align: center;
+       border-radius: 10px;
+       padding: 4px;
+       text-shadow: 1px 1px 2px black;
+     }
+  
+    
+     .flex{
+        padding: 30px;
+        margin: 10px;
+    }
+    
+    .f-1 > p{
+        background-color: #970909;
+        color: #f3f3f3;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+    
+    .f-1{
+          
+        font-weight: bold;
+        background-color: #f3f3f3;
+        margin-top: 40px;
+        max-width: 120%;
+        text-align: center;
+        
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+        
+        
+        
+     }
+   
+     
+    
+    
+    #conteudo1 h1{ 
+       background-color: #970909;
+       color: #FCFFF7;
+       max-width: 100%;
        
-        
-     }
-    
-     .float-r{
-        margin: 10px;
+    }
+    .carrossel{
+        position: relative;
+       overflow-x:auto;
+        display: flex;
+        flex-direction: row;
+        justify-items: auto;
         text-align: center;
-        float:center;
-        
-     }
-     .float-x{
+        font-size: 1.8rem;
         margin: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+        
+         
+    }
+    figure{
         text-align: center;
-        float:center;
+    }
     
     
-     }
+    .carrossel div > h2{
+        font-size: 1.5rem;
+        margin: 0 auto;
+        text-align: center;
+       
+    }
+    
+    .carrossel div {
+        margin: 30px;
+        background-color: #FCFFF7;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+    
+    }
+    
+    .carrossel figcaption{
+        background-color: rgb(175, 16, 16);
+        color: #FCFFF7;
+        font-size: 1.6rem;
+       border-radius: 10px;
+       padding: 10px;
+    }
+    
+    #add{
+        position: absolute;
+        margin-left: 84%;
+      top: 2px;
+      
+    }
+    
+    .add{
+        position: relative;
+       border:   rgb(175, 16, 16) 2px solid;
+       background-color:  rgb(175, 16, 16);
+       border-radius: 3px;
+       margin-top: 7px;
+       cursor: pointer;
+      
+       
+    }
+    .add:hover{
+        background-color: rgb(6, 107, 48);
+        border: 3px solid rgb(6, 107, 48); ;
+        padding: 2px;
+    }
+    
+    
+    .rodape {
+        margin-top: 160px;
+        background-color: rgb(6, 107, 48);
+        max-width: 100%;
+        padding: 10px;
+        color: #FCFFF7;
+       
+    }
+    
+    .img-site{
+        border-radius: 10px;
+        margin-top: 6px;
+    }
+    
+    ::-webkit-scrollbar-track{
+        background-color: #ffffff00;
+        z-index: 0;
+    }
+    ::-webkit-scrollbar{
+        width: 9px;
+        background: #e4dfdf00;
+        z-index: 0;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        
+        background: #08080879;
+        border-radius: 10px;
+        z-index: 0;
+    }
+    
     
 }
 
@@ -114,19 +326,39 @@ a{
 
 
 /*inicio css */
+@media (min-width: 475px) and (max-width:10000px){
+
+
 body{
     background-color: #b4afaf3a;
     background-repeat: repeat;
 }
 
+#comprar1{
+    display: none;
+}
+
+#logo{
+    position: absolute;
+    padding: 10px;
+}
+
+#nav {
+position: relative;
+margin-right: 5%;
+margin-left: 5%;
+margin: 10px;
+
+
+}
+
 #cabecalho {
-    padding: 30px;
-   
+    
+   position: absolute;
    z-index: 1;
     width: 100%;
     background-color:#1F1F1F;
     color: #FCFFF7;
-    background-image: url(/ProjetoFastFood/assets/Rectangle\ 2.png);
     background-repeat: no-repeat;
     position: fixed;
 }
@@ -135,24 +367,25 @@ body{
 
     display: inline-flex;
     padding: 10px; 
-    margin: 10px;
+    margin: 40px;
+    margin-bottom: 4px;
+   
 }
 
 
 
 
-#cabecalho nav{
-    position: absolute;
-    right: 5px;
-    top: 30px;
-    margin-right: 5%;
-    
-}
+
+
 
 #cabecalho figure{
 
     display: inline-flex;
    
+}
+.header-container{
+    position: relative;
+    margin: 0px;
 }
 
 
@@ -165,7 +398,7 @@ body{
     padding: 10px;
     border-radius: 3px;
     text-align: center;
-    margin-right: 5px;
+    margin-right: 20px;
 
 }
 
@@ -184,6 +417,10 @@ body{
     max-width: 100%;
 }
 
+#como-pedir{
+    padding: 20px;
+    font-size: 3rem;
+}
 
 .conteudo
     {
@@ -198,8 +435,47 @@ body{
    
 
 }
+.flex{
+    padding: 30px;
+    margin: 10px;
+}
 
+.f-1 > p{
+    background-color: #970909;
+    color: #f3f3f3;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
 
+.f-1{
+      
+    font-weight: bold;
+    background-color: #f3f3f3;
+    
+    max-width: 70%;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+    
+    
+    
+ }
+ #f-1{
+    
+    margin-left: 15%;
+    padding: 10px;
+ }
+ #f-2{
+    
+        margin-left: 15%;
+        padding: 10px;
+    
+ }
+ #f-3{
+    margin-left: 15%;
+        padding: 10px;
+ }
 
 .conteudo2{
     /*arrumar o passo a passo depois*/
@@ -225,48 +501,9 @@ font-size: 1.9rem;
     color: #FCFFF7;
     }
 
- .float-l{
-    margin: 10px;
-    margin-top: 20px;
-    text-align: inline-start;
-    float:left;
-    margin-left: 140px;
-    background-color: #f0f0ee;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
-    
- }
 
- .float-r{
-    
-    margin: 10px;
-    margin-top: 20px;
-    text-align: right;
-    float: right;
-    margin-right: 140px;
-    background-color: #f0f0ee;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
- }
- .float-x{
 
-float:inline-end ;
-text-align: center;
-margin: 0 auto;
-top: 50px;
-background-color: #d8dad6;
-margin-top: 300px;
-max-width: 40%;
-padding: 30px;
-border-radius: 10px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
- }
 
-#conteudo1{
-    background-image: url(/ProjetoFastFood/assets/img-dois.png);
-}
 #conteudo2 h3{
     background-color: rgb(6, 107, 48);
     color: #FCFFF7;
@@ -329,12 +566,38 @@ figure{
 }
 .add{
     position: relative;
-   border:  rgb(175, 16, 16) 2px solid;
-   background-color: #ddd8d800;
+   border:   rgb(175, 16, 16) 2px solid;
+   background-color:  rgb(175, 16, 16);
    border-radius: 3px;
    margin-top: 7px;
+   cursor: pointer;
   
    
+}
+#add{
+    position: absolute;
+    margin-left: 93%;
+  top: 2px;
+  border-top: 5px;
+}
+.add:hover{
+    background-color: rgb(6, 107, 48);
+    border: 3px solid rgb(6, 107, 48); ;
+    padding: 2px;
+}
+#hover:hover{
+    position: relative;
+    display: inline;
+    margin: 10px;
+    top: 300px;
+    background-color: #1F1F1F;
+    z-index: 1;
+}
+
+#hover{
+
+width: 20%;
+height: 20%;
 }
 
 
@@ -353,26 +616,143 @@ figure{
 .img-site{
     border-radius: 10px;
     margin-top: 6px;
+    
+   
 }
 
 ::-webkit-scrollbar-track{
-    background-color: #ffffff00;
+    background-color: #0000009a;
+   
+   
 }
 ::-webkit-scrollbar{
-    width: 9px;
+    width: 3px;
     background: #e4dfdf00;
+    
+    
 }
 
 ::-webkit-scrollbar-thumb{
     
-    background: #a00a0a;
+    background: #a00a0ac4;
     border-radius: 10px;
+   
+}
+
+.grid-cardapio{
+    position: relative;
+    overflow-x:none;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     justify-items: auto;
+     text-align: center;
+     font-size: 1.8rem;
+     margin: 10px;
+    
+
+}
+#h2_pizza_id_cardapio{
+    margin-top: 80px;
+    
+    background-color: rgb(6, 107, 48);
+    max-width: 100%;
+    padding: 10px;
+    color: #FCFFF7;
+    text-align: center;
 }
 
 
+.grid-conteudo{
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    background-color: #FCFFF7;
+   margin: 20px;
+   display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.grid-conteudo >h2{
+    background-color:#970909;
+    color: #FCFFF7;
+}
+.grid-conteudo >h4{
+    background-color: rgb(6, 107, 48);
+    color: #FCFFF7;
+    
+}
+.add-grid-conteudo{
+    
+    padding: 10px;
+    margin: 30px;
+    bottom: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+    border-radius: 3px;
+    
+    background-color:#970909;
+    color: #FCFFF7;
+    
+  
+   
+}
+#cardapio-cardapio{
+    
+   
+    background-color: #1F1F1F;
+    color: #f3f3f3;
+
+}
+.ingredientes{
+   
+   position: relative;
+    top: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    background-color: #FCFFF7;
+    height: 85%;
+    
+
+    
+
+}
+
+.ingredientes ul{
+position: relative;
+background-color: rgb(6, 107, 48);
+color: #f3f3f3;
+font-weight: bold; 
+
+height: 96%;
+padding: 10px;
+border-radius: 3px;
+}
+
+.ingredientes li{
+    font-size: 1.6rem;
+   padding: 2px;
+}
+.descricao-produto-refri{
+position: relative;
+
+background-color: rgb(6, 107, 48);
+color: #f3f3f3;
+font-weight: bold; 
+height: 90%;
+padding: 10px;
+border-radius: 3px;
+margin: 0 auto;
+text-align: center;
+}
+.tirulo-span-ingredientes{
+background-color:#970909;
+color: #f3f3f3;
+font-weight: bold;
+margin-top: 0;
+}
+}
 /*fim css */
 
-arrumar cabeçalho e vids de stpes
+
 
 
 
