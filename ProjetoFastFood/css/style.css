@@ -3,6 +3,7 @@
     margin: 0;
     font-size: 62.5%;
     font-family: 'Jomolhari', serif;
+    scroll-behavior: smooth;
     
 }
 
@@ -267,6 +268,7 @@ a{
         margin-left: 84%;
       top: 2px;
       
+      
     }
     
     .add{
@@ -316,6 +318,97 @@ a{
         border-radius: 10px;
         z-index: 0;
     }
+    .grid-cardapio{
+        position: relative;
+        overflow-x:none;
+         display: grid;
+         grid-template-rows: 1fr 1fr;
+         justify-items: auto;
+         text-align: center;
+         font-size: 1.8rem;
+         margin: 10px;
+         max-width: 100%;
+        
+    
+    }
+    #h2_pizza_id_cardapio{
+        margin-top: 80px;
+        max-width: 100%;
+        background-color: rgb(6, 107, 48);
+        max-width: 100%;
+        padding: 10px;
+        color: #FCFFF7;
+        text-align: center;
+    }
+
+
+  
+    .grid-conteudo{
+    
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+        border-radius: 10px;
+        background-color:rgb(6, 107, 48);
+       margin: 20px;
+       max-width: 100%;
+      
+      
+    }
+    .add-grid-conteudo >h4{
+        background-color:rgb(6, 107, 48);
+        color: #FCFFF7;
+    }
+    .add-grid-conteudo >h2{
+        background-color: #970909;
+        color: #FCFFF7;
+        
+    }
+    .ingredientes{
+   
+        position: relative;
+        
+         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
+         border-radius: 10px;
+         background-color:#f3f3f3;
+         height: 85%;
+         
+     
+         
+     
+     }
+     .ingredientes ul{
+        position: relative;
+        background-color: rgb(6, 107, 48);
+        color: #f3f3f3;
+        font-weight: bold; 
+        
+       
+        padding: 10px;
+        border-radius: 3px;
+        }
+        
+        .ingredientes li{
+            font-size: 1.6rem;
+           padding: 2px;
+        }
+        .descricao-produto-refri{
+        position: relative;
+        
+        background-color: rgb(6, 107, 48);
+        color: #f3f3f3;
+        font-weight: bold; 
+       
+        padding: 10px;
+        border-radius: 3px;
+        margin: 0 auto;
+        text-align: center;
+        }
+        .tirulo-span-ingredientes{
+        background-color:#970909;
+        color: #f3f3f3;
+        font-weight: bold;
+        margin-top: 0;
+        }
+   
     
     
 }
@@ -374,10 +467,6 @@ margin: 10px;
 
 
 
-
-
-
-
 #cabecalho figure{
 
     display: inline-flex;
@@ -387,8 +476,6 @@ margin: 10px;
     position: relative;
     margin: 0px;
 }
-
-
 
 #cabecalho li{
     font-weight: bolder;
@@ -405,12 +492,6 @@ margin: 10px;
 #cabecalho li:hover{
     background-color: rgb(6, 107, 48);
 }
-
-
-
-
-
-
 
 
 #img-section{
@@ -500,9 +581,6 @@ font-size: 1.9rem;
     background-color: rgb(6, 107, 48);
     color: #FCFFF7;
     }
-
-
-
 
 #conteudo2 h3{
     background-color: rgb(6, 107, 48);
@@ -599,10 +677,6 @@ figure{
 width: 20%;
 height: 20%;
 }
-
-
-
-
 
 .rodape {
     margin-top: 160px;
@@ -709,7 +783,8 @@ height: 20%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.493);
     border-radius: 10px;
     background-color: #FCFFF7;
-    height: 85%;
+   width: 80%;
+   height: 75%;
     
 
     
